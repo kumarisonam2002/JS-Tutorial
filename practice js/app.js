@@ -92,35 +92,92 @@
 // }
 
 
-function countVowels(str) {
-    let count = 0;
-    for (const char of str) {
-        if(
-            char === "a" || 
-            char === "e" || 
-            char === "i" || 
-            char === "o" || 
-            char === "u"
-        ) {
-            count++;
-        }
-    }
-    return count;
+// function countVowels(str) {
+//     let count = 0;
+//     for (const char of str) {
+//         if(
+//             char === "a" || 
+//             char === "e" || 
+//             char === "i" || 
+//             char === "o" || 
+//             char === "u"
+//         ) {
+//             count++;
+//         }
+//     }
+//     return count;
 
-}
+// }
 
-const countVow = (str) => {
-   let count = 0;
-   for (const char of str) {
-    if(
-        char === "a" ||
-        char === "e" ||
-        char === "i" ||
-        char === "o" ||
-        char === "u"
-    ) {
-        count++;
-    }
-   }
-   return count;
-}
+// const countVow = (str) => {
+//    let count = 0;
+//    for (const char of str) {
+//     if(
+//         char === "a" ||
+//         char === "e" ||
+//         char === "i" ||
+//         char === "o" ||
+//         char === "u"
+//     ) {
+//         count++;
+//     }
+//    }
+//    return count;
+// }
+
+// function abc() {
+//     console.log("hello");
+// }
+
+// function myFunc(abc) {
+//     return abc;
+// }
+
+// let arr = [1,2,3,4,5];
+
+// arr.forEach(function printVal(val) {
+//     console.log(val);
+// })
+
+// let arr = [1,2,3,4,5];
+
+// arr.forEach((val) => {
+//     console.log(val);
+// });
+
+// let arr = ["pune","delhi","mumbai"];
+
+// arr.forEach((val) => {
+//     console.log(val);
+// });
+
+// let arr = ["pune","delhi","mumbai"];
+
+// arr.forEach((val) => {
+//     console.log(val.toUpperCase());
+// });
+
+// let arr = ["pune","delhi","mumbai"];
+
+// arr.forEach((val,idx) => {
+//     console.log(val.toUpperCase(),idx);
+// });
+
+// let arr = ["pune","delhi","mumbai"];
+
+// arr.forEach((val, idx, arr) => {
+//     console.log(val.toUpperCase(),idx,arr);
+// });
+
+
+// let nums = [2,3,4,5,6];
+
+// nums.forEach((num) => {
+//     console.log(num*num);
+// })
+
+let nums = [67,52,39];
+
+nums.forEach((num) => {
+    console.log(num * num);
+})
